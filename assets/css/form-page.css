@@ -1,0 +1,96 @@
+.form-page {
+    min-height: 100vh;
+    background: #eae8e5;
+    padding: 40px 15px;
+}
+
+.form-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    border-left: 4px solid #4a6b6b;
+    padding: 2rem 2.25rem;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.form-card .form-page-title {
+    color: #3d4a4a;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.form-card .form-label {
+    color: #3d4a4a;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.form-card .form-control {
+    border: 1px solid #b8c4c4;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+}
+
+.form-card .form-control:focus {
+    border-color: #4a6b6b;
+    box-shadow: 0 0 0 3px rgba(74, 107, 107, 0.18);
+    outline: none;
+}
+
+.form-card textarea.form-control {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.form-card .btn-save {
+    background: #4a6b6b;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.form-card .btn-save:hover {
+    background: #3d5858;
+    color: #fff;
+}
+
+.form-card .btn-cancel {
+    color: #4a6b6b;
+    border: 1px solid #4a6b6b;
+    background: transparent;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.form-card .btn-cancel:hover {
+    background: #4a6b6b;
+    color: #fff;
+}
+
+.form-card .alert-danger {
+    background: #f0e8e8;
+    border: 1px solid #d4b8b8;
+    color: #6b3a3a;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.form-card .back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #4a6b6b;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.form-card .back-link:hover {
+    color: #3d5858;
+    text-decoration: underline;
+}
