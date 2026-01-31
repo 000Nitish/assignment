@@ -1,0 +1,173 @@
+.dashboard-page {
+    min-height: 100vh;
+    background: #f5f0ea;
+    padding: 30px 15px 40px;
+}
+
+.dashboard-header {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e8e2da;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dashboard-header h1 {
+    color: #5c4a3d;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dashboard-header .user-info {
+    color: #5c4a3d;
+    font-size: 0.95rem;
+    margin-right: 0.5rem;
+}
+
+.dashboard-header .btn-add {
+    background: #a65c2e;
+    border: none;
+    color: #fff;
+    padding: 0.45rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dashboard-header .btn-add:hover {
+    background: #8b4a20;
+    color: #fff;
+}
+
+.dashboard-header .btn-logout {
+    color: #a65c2e;
+    border: 1px solid #a65c2e;
+    background: transparent;
+    padding: 0.45rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dashboard-header .btn-logout:hover {
+    background: #a65c2e;
+    color: #fff;
+}
+
+.dashboard-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e8e2da;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.dashboard-content .alert {
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.dashboard-content .alert-success {
+    background: #eef5ed;
+    border-color: #b8d4b4;
+    color: #2d5a2d;
+}
+
+.dashboard-content .items-table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.dashboard-content .items-table thead th {
+    background: #f8f6f3;
+    color: #5c4a3d;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid #e8e2da;
+}
+
+.dashboard-content .items-table thead th:first-child {
+    border-radius: 8px 0 0 0;
+}
+
+.dashboard-content .items-table thead th:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+.dashboard-content .items-table tbody td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid #eeece8;
+    color: #4a4038;
+    vertical-align: middle;
+}
+
+.dashboard-content .items-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.dashboard-content .items-table tbody tr:hover {
+    background: #faf9f7;
+}
+
+.dashboard-content .items-table .btn-edit {
+    background: #c4a77d;
+    border: none;
+    color: #fff;
+    padding: 0.3rem 0.65rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-right: 0.4rem;
+}
+
+.dashboard-content .items-table .btn-edit:hover {
+    background: #b8956a;
+    color: #fff;
+}
+
+.dashboard-content .items-table .btn-delete {
+    background: #b8542a;
+    border: none;
+    color: #fff;
+    padding: 0.3rem 0.65rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.dashboard-content .items-table .btn-delete:hover {
+    background: #9a4522;
+    color: #fff;
+}
+
+.dashboard-empty {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    color: #5c4a3d;
+}
+
+.dashboard-empty p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.dashboard-empty a {
+    color: #a65c2e;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dashboard-empty a:hover {
+    text-decoration: underline;
+    color: #8b4a20;
+}
