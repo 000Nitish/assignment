@@ -1,8 +1,5 @@
 <?php
-/**
- * Database connection file
- * Update these values according to your MySQL setup
- */
+ //Database connection file
 $host = 'localhost';
 $dbname = 'assignment_db';
 $username = 'root';
